@@ -6,8 +6,8 @@
 // @author       LordNevi
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/placeDE-overlay.user.js
-// @downloadURL  https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/placeDE-overlay.user.js
+// @updateURL    https://github.com/werlen-nevio/Reddit_place_overlay_23/raw/main/src/scripts/placeCH-overlay.user.js
+// @downloadURL  https://github.com/werlen-nevio/Reddit_place_overlay_23/raw/main/src/scripts/placeCH-overlay.user.js
 // ==/UserScript==
 
 var overlayImage = null;
