@@ -1,13 +1,11 @@
 // ==UserScript==
-// @name         r/placeCH Template
+// @name         r/place Cuba Template
 // @namespace    http://tampermonkey.net/
 // @version      8.3
 // @description  try to take over the canvas!
-// @author       LordNevi
+// @author       BarnésInside
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/werlen-nevio/Reddit_place_overlay_23/raw/main/src/scripts/placeCH-overlay.user.js
-// @downloadURL  https://github.com/werlen-nevio/Reddit_place_overlay_23/raw/main/src/scripts/placeCH-overlay.user.js
 // ==/UserScript==
 
 var overlayImage = null;
@@ -22,7 +20,7 @@ if (window.top !== window.self) {
 }
 
 function updateImage() {
-    overlayImage.src = "https://place.army/overlay_target.png?" + Date.now()
+    overlayImage.src = "https://github.com/blacknoize404/Reddit_place_overlay_23/blob/9ca14527f7ee44837c0bba25a3c7c08d3a58530a/Cuba%20r-places.jpg?raw=true" + Date.now()
 }
 
-setInterval(function () {overlayImage.src = "https://place.army/overlay_target.png?" + Date.now()}, 30000);
+setInterval(function () {overlayImage.src = "https://github.com/blacknoize404/Reddit_place_overlay_23/blob/9ca14527f7ee44837c0bba25a3c7c08d3a58530a/Cuba%20r-places.jpg?raw=true" + Date.now()}, 30000);
